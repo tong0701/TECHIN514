@@ -1,29 +1,33 @@
 #include <Arduino.h>
+#include <Bounce2.h>
+
+const int SWITCH_PIN = D2;
+const int LED_PIN = D10;
+
+Bounce2::Button button = Bounce2::Button();
+bool ledState = false;
 
 void setup() {
-  // Initialize Serial communication at 115200 baud
   Serial.begin(115200);
-  
-  // Wait for Serial port to connect (useful for some boards)
-  while (!Serial) {
-    delay(10);
-  }
-  
-  // Print startup message
-  Serial.println("TECHIN 514 Lab 1 – PlatformIO setup successful");
+
+  pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, LOW);
+
+  button.attach(SWITCH_PIN, INPUT_PULLUP);
+  button.interval(50);
+  button.setPressedState(LOW);
+
+  Serial.println("Ready");
 }
 
 void loop() {
-  static unsigned long counter = 0;
-  static unsigned long lastPrint = 0;
-  unsigned long currentTime = millis();
-  
-  // Print counter every second
-  if (currentTime - lastPrint >= 1000) {
-    counter++;
-    Serial.print("Counter: ");
-    Serial.println(counter);
-    lastPrint = currentTime;
-  }
-}
+  button.update();
 
+  if (button.pressed()) {
+    ledState = !ledState;
+    digitalWrite(LED_PIN, ledState ? HIGH : LOW);
+    Serial.println(ledState ? "LED ON" : "LED OFF");
+  }
+
+  delay(10);
+}
