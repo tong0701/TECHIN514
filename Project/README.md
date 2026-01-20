@@ -107,4 +107,4 @@ Below is the original conceptual sketch created during the ideation phase.
 *Original ideation sketch.*
 
 ---
-**Note on AI Usage:** The structure and phrasing of this document were refined with the assistance of Gemini to ensure clarity. Additionally, Figures 1, 2, and 3 were generated using AI tools to visually interpret and clean up the original hand-drawn concepts (provided in the Appendix) for better presentation quality.
+**Note on AI Usage:** Due to my limited prior experience in this domain, I utilized AI assistants as a learning aid to understand the hardware development workflow, validate the technical feasibility of my ideas, and identify appropriate component models. Additionally, AI tools were used to refine the document's structure and generate the project visualizations based on my original hand-drawn sketches (provided in the Appendix).
