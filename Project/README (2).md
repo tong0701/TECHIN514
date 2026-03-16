@@ -82,9 +82,9 @@ TRIG → D9   ECHO → D8               Motor → D0–D3
 
 ## Build Photos
 
-| Both Devices | Sensor PCB | Display PCB |
+| Both Devices | Sensor PCB | Sensor PCB |
 |---|---|---|
-| ![Both devices](images/IMG_3174.JPG) | ![Sensor PCB](images/IMG_3164.JPG) | ![Display PCB](images/IMG_3165.JPG) |
+| ![Both devices](images/IMG_3174.JPG) | ![Sensor PCB](images/IMG_3164.JPG) | ![Sensor PCB](images/IMG_3165.JPG) |
 
 | Display Internal | Display Internal | Display Enclosure |
 |---|---|---|
