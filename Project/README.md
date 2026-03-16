@@ -86,7 +86,7 @@ TRIG → D9   ECHO → D8               Motor → D0–D3
 |---|---|---|
 | ![Both devices](images/IMG_3174.JPG) | ![Sensor PCB](images/IMG_3164.JPG) | ![Sensor PCB](images/IMG_3165.JPG) |
 
-| Display Internal | Display Internal | Display Enclosure |
+| Display Internal | Display Internal | Sensor Enclosure |
 |---|---|---|
 | ![Display internal](images/IMG_3166.JPG) | ![Display internal](images/IMG_3167.JPG) | ![Display enclosure](images/IMG_3175.JPG) |
 
