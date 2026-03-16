@@ -1,6 +1,6 @@
 # Desk Guardian
 ### Proximity-based Workspace Awareness System
-**TECHIN 514 · Taya (Xintong) Li · University of Washington**
+**TECHIN 514 · Taya (Xintong) Li**
 
 ---
 
@@ -165,5 +165,3 @@ Project/
 [View archived proposal](archive/archive_proposal)
 
 ---
-
-*TECHIN 514 Connected Devices · University of Washington MSTI*
